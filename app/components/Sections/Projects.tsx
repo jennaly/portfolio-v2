@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { MdArrowOutward } from "react-icons/md";
+import H2 from "../shared/H2";
 
 type ProjectType = {
   image: {
@@ -38,16 +39,20 @@ const Project = ({ image, title, url }: ProjectType) => {
 
 const Projects = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-      {projects.map((project, index) => (
-        <Project
-          image={project.image}
-          title={project.title}
-          url={project.url}
-          key={index}
-        />
-      ))}
-    </div>
+    <section className="flex flex-col gap-10">
+      <H2>View My Work</H2>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        {projects.map((project, index) => (
+          <Project
+            image={project.image}
+            title={project.title}
+            url={project.url}
+            key={index}
+          />
+        ))}
+      </div>
+    </section>
   );
 };
 
