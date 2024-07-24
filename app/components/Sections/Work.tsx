@@ -37,9 +37,9 @@ const Project = ({ image, title, url }: ProjectType) => {
   );
 };
 
-const Projects = () => {
+const Work = () => {
   return (
-    <section className="flex flex-col gap-10">
+    <section className="flex flex-col gap-10" id="Work">
       <H2>View My Work</H2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
@@ -56,7 +56,7 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Work;
 
 const projects = [
   {
