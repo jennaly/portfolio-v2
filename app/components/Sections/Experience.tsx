@@ -10,12 +10,15 @@ type PositionType = {
 
 const Position = ({ employer, role, startDate, endDate }: PositionType) => {
   return (
-    <div className="flex flex-col items-start gap-5 md:flex-row md:items-center md:justify-between py-10 border-b">
+    <div
+      className="flex flex-col items-start gap-5 md:flex-row md:items-center md:justify-between py-10 border-b"
+      id="Experience"
+    >
       <div className="flex flex-col">
-        <span className="text-2xl">{employer}</span>
+        <span className="text-xl md:text-2xl">{employer}</span>
         <span className="pt-2">{role}</span>
       </div>
-      <span className="text-lg md:text-xl">
+      <span className="">
         {startDate} &ndash; {endDate}
       </span>
     </div>
