@@ -4,7 +4,7 @@ type H2Props = {
 };
 
 const H2 = ({ children }: H2Props) => {
-  return <h2 className="text-5xl">{children}</h2>;
+  return <h2 className="text-3xl md:text-4xl lg:text-5xl">{children}</h2>;
 };
 
 export default H2;
