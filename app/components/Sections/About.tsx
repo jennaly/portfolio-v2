@@ -12,7 +12,7 @@ const About = () => {
           width={200}
           height={200}
           alt="placeholder about me image"
-          className="w-full object-cover md:w-[45%] lg:w-[42%] max-h-[400px]"
+          className="w-full object-cover md:w-[45%] lg:w-[42%] md:max-h-[400px]"
         />
 
         <div className="flex flex-col md:w-1/2 gap-10 leading-loose tracking-wide">
