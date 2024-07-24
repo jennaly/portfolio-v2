@@ -83,3 +83,8 @@ body {
   background: theme("colors.accent");
   transition: 0.3s ease-in-out;
 }
+
+.link__style:hover {
+  color: theme("colors.accent");
+  transition: 0.3s ease-in-out;
+}
