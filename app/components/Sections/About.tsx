@@ -16,7 +16,7 @@ const About = () => {
         />
 
         <div className="flex flex-col md:w-1/2 gap-10 leading-loose tracking-wide">
-          <p className="text-3xl">
+          <p className="text-2xl lg:text-3xl">
             <span lang="vi" className="text-accent">
               Xin Chào!
             </span>{" "}
