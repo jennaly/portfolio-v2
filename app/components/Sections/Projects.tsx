@@ -42,7 +42,7 @@ const Projects = () => {
     <section className="flex flex-col gap-10">
       <H2>View My Work</H2>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
         {projects.map((project, index) => (
           <Project
             image={project.image}
