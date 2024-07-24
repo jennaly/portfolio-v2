@@ -4,7 +4,7 @@ import H2 from "../shared/H2";
 
 const About = () => {
   return (
-    <section className="flex flex-col gap-10">
+    <section className="flex flex-col gap-10" id="About">
       <H2>About Me</H2>
       <div className="flex flex-col md:flex-row justify-between items-stretch gap-10">
         <Image
@@ -12,7 +12,7 @@ const About = () => {
           width={200}
           height={200}
           alt="placeholder about me image"
-          className="w-full object-cover md:w-[45%] lg:w-[42%]"
+          className="w-full object-cover md:w-[45%] lg:w-[42%] max-h-[400px]"
         />
 
         <div className="flex flex-col md:w-1/2 gap-10 leading-loose tracking-wide">
