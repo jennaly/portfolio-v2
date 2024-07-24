@@ -1,5 +1,7 @@
 import React from "react";
 import H2 from "../shared/H2";
+import ResumeButton from "../ResumeButton";
+import { MdArrowOutward } from "react-icons/md";
 
 type PositionType = {
   employer: string;
@@ -40,6 +42,12 @@ const Experience = () => {
             endDate={experience.endDate}
           />
         ))}
+      </div>
+
+      <div className="mt-6">
+        <ResumeButton>
+          Full Resume <MdArrowOutward />
+        </ResumeButton>
       </div>
     </section>
   );
