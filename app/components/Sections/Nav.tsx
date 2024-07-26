@@ -5,7 +5,7 @@ import StyledLink from "../shared/StyledLink";
 import ResumeButton from "../ResumeButton";
 
 const Nav = () => {
-  const [showMobileNav, setShowMobileNav] = useState(true);
+  const [showMobileNav, setShowMobileNav] = useState(false);
 
   const toggleMobileNav = () => {
     setShowMobileNav(!showMobileNav);
