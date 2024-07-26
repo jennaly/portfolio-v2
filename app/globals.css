@@ -94,7 +94,7 @@ body {
 }
 
 .resume_button {
-  border: 1px solid theme("colors.accent");
+  border: 2px solid theme("colors.accent");
   border-radius: 9999px;
   width: fit-content;
   padding: 10px 24px;
@@ -108,4 +108,37 @@ body {
   background-color: theme("colors.accent");
   transition: 0.3s ease-in-out;
   color: black;
+}
+
+.hamburger .line {
+  width: 26px;
+  height: 2px;
+  background-color: #ecf0f1;
+  display: block;
+  margin: 6px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.hamburger:hover {
+  cursor: pointer;
+}
+
+.hamburger.is-active .line:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.is-active .line:nth-child(1) {
+  -webkit-transform: translateY(13px) rotate(45deg);
+  -ms-transform: translateY(13px) rotate(45deg);
+  -o-transform: translateY(13px) rotate(45deg);
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.is-active .line:nth-child(3) {
+  -webkit-transform: translateY(-13px) rotate(-45deg);
+  -ms-transform: translateY(-13px) rotate(-45deg);
+  -o-transform: translateY(-13px) rotate(-45deg);
+  transform: translateY(-8px) rotate(-45deg);
 }
