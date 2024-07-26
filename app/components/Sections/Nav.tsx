@@ -44,7 +44,9 @@ const Nav = () => {
             </div>
           ))}
 
-          <ResumeButton>Resume</ResumeButton>
+          <div onClick={toggleMobileNav}>
+            <ResumeButton>Resume</ResumeButton>
+          </div>
         </div>
       )}
     </nav>
