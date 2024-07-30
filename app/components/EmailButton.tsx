@@ -14,13 +14,15 @@ const EmailButton = () => {
   };
 
   return (
-    <div className="flex items-center gap-4">
+    <div className="flex items-center gap-4 w-fit relative">
       <button className="button__Email" onClick={copyEmailToClipboard}>
         {EMAIL}
         <IoCopyOutline size={20} />
       </button>
       {showCopySuccessMsg && (
-        <span className="uppercase text-xs">{COPY_SUCCESS_MSG}</span>
+        <span className="uppercase text-xs absolute -right-16">
+          {COPY_SUCCESS_MSG}
+        </span>
       )}
     </div>
   );
