@@ -40,7 +40,7 @@ const Project = ({ image, title, url }: ProjectType) => {
 const Work = () => {
   return (
     <section className="flex flex-col gap-10" id="Work">
-      <H2>View My Work</H2>
+      <H2>Recent Work</H2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
         {projects.map((project, index) => (
