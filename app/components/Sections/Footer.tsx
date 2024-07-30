@@ -9,10 +9,10 @@ const Footer = () => {
       <div className="flex flex-col gap-10 w-full md:w-[55%]">
         <H2>Let's work together</H2>
         <p>
-          I am fueled by new challenges and cutting-edge projects. If you need a
-          committed and passionate digital designer to enhance your vision, look
-          no further. Get in touch, and let's start this thrilling adventure
-          together!
+          I am driven by new challenges and cutting-edge projects. If you're
+          looking for a dedicated and passionate developer to bring your vision
+          to life, let's connect. Get in touch to see how my experience and
+          skills can benefit your organization!
         </p>
         <EmailButton />
       </div>
