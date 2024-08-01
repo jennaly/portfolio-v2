@@ -21,7 +21,7 @@ const Project = ({ image, title, url, wip }: ProjectType) => {
     <Link href={url}>
       <div className="project__Container">
         {wip && (
-          <div className="absolute uppercase bg-black bg-opacity-50 px-4 py-2 top-4 right-6 text-sm font-medium">
+          <div className="absolute uppercase bg-black bg-opacity-50 px-4 py-2 top-4 right-6 text-sm font-medium rounded-full">
             work in progress
           </div>
         )}
