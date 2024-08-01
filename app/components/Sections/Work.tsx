@@ -13,12 +13,18 @@ type ProjectType = {
   };
   title: string;
   url: string;
+  wip: boolean;
 };
 
-const Project = ({ image, title, url }: ProjectType) => {
+const Project = ({ image, title, url, wip }: ProjectType) => {
   return (
     <Link href={url}>
       <div className="project__Container">
+        {wip && (
+          <div className="absolute uppercase bg-black bg-opacity-50 px-4 py-2 top-4 right-6 text-sm font-medium">
+            work in progress
+          </div>
+        )}
         <div className="projectImg__Container">
           <Image
             src={image.url}
@@ -49,6 +55,7 @@ const Work = () => {
             title={project.title}
             url={project.url}
             key={index}
+            wip={project.wip}
           />
         ))}
       </div>
@@ -61,42 +68,46 @@ export default Work;
 const projects = [
   {
     image: {
-      url: "/placeholder.avif",
+      url: "/project-ccrf.jpg",
       width: 1313,
       height: 985,
       alt: "placeholder alt",
     },
     title: "Children's Cancer Research Fund Website",
     url: "",
+    wip: true,
   },
   {
     image: {
-      url: "/placeholder.avif",
-      width: 1313,
-      height: 985,
+      url: "/project-consignrWebKiosk.jpg",
+      width: 1836,
+      height: 1439,
       alt: "placeholder alt",
     },
     title: "ConsignR Web Kiosk ",
     url: "",
+    wip: false,
   },
   {
     image: {
-      url: "/placeholder.avif",
-      width: 1313,
-      height: 985,
+      url: "/project-drdabber.jpg",
+      width: 1836,
+      height: 1439,
       alt: "placeholder alt",
     },
     title: "Dr.Dabber Website",
     url: "",
+    wip: false,
   },
   {
     image: {
-      url: "/placeholder.avif",
-      width: 1313,
-      height: 985,
+      url: "/project-syntri.jpg",
+      width: 1836,
+      height: 1439,
       alt: "placeholder alt",
     },
     title: "Syntri Website",
     url: "",
+    wip: false,
   },
 ];
