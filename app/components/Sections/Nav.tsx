@@ -12,9 +12,7 @@ const Nav = () => {
   };
   return (
     <nav className=" w-full max-w-screen-xl mx-auto p-10">
-      <div className="flex flex-row justify-between items-center">
-        <span>Logo</span>
-
+      <div className="flex flex-row justify-end items-center">
         <div className="hidden md:flex gap-6 items-center">
           {links.map((link, index) => (
             <StyledLink url={link.url} label={link.label} key={index} />
