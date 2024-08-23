@@ -20,7 +20,7 @@ const EmailButton = () => {
         <IoCopyOutline size={20} />
       </button>
       {showCopySuccessMsg && (
-        <span className="uppercase text-xs absolute -right-16">
+        <span className="uppercase text-sm absolute -right-16 tracking-wide font-semibold">
           {COPY_SUCCESS_MSG}
         </span>
       )}
