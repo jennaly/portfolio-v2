@@ -23,13 +23,13 @@ const About = () => {
             My name is Jenna and I am a developer with a passion for all things
             craft.
           </p>
-          <p className="text-lg">
+          <p className="text-xl">
             I have worked with non-profits and medium-sized businesses to
             deliver custom solutions, build websites on WordPress and Shopify,
             and craft web experiences using technologies like JavaScript,
             Next.js, React, and Tailwind.
           </p>
-          <p className="text-lg">
+          <p className="text-xl">
             Currently, I’m focusing on enhancing my skills in cloud technologies
             to improve my ability to design, develop, and deploy cloud-based
             solutions.

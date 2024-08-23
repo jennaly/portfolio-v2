@@ -7,7 +7,7 @@ type ResumeButtonProps = {
 
 const ResumeButton = ({ children }: ResumeButtonProps) => {
   return (
-    <Link href="/" className="resume_button">
+    <Link href="/" className="resume_button text-base tracking-wide uppercase">
       {children}
     </Link>
   );

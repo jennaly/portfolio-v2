@@ -12,7 +12,7 @@ const Hero = () => {
         <span className="text-accent">Web Developer</span>
       </div>
 
-      <p className="text-lg max-w-[500px]">
+      <p className="text-xl tracking-wide max-w-[600px]">
         When I'm not coding, you'll find me at Trader Joe's getting things my
         freezer absolutely does not have space for.
       </p>

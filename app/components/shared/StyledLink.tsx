@@ -8,7 +8,7 @@ type LinkProps = {
 
 const StyledLink = ({ url, label }: LinkProps) => {
   return (
-    <Link href={url} className="link__style">
+    <Link href={url} className="link__style text-xl tracking-wide">
       {label}
     </Link>
   );

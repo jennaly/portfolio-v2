@@ -15,7 +15,10 @@ const EmailButton = () => {
 
   return (
     <div className="flex items-center gap-4 w-fit relative">
-      <button className="button__Email" onClick={copyEmailToClipboard}>
+      <button
+        className="button__Email text-lg md:text-xl"
+        onClick={copyEmailToClipboard}
+      >
         {EMAIL}
         <IoCopyOutline size={20} />
       </button>
