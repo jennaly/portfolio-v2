@@ -35,7 +35,7 @@ const Project = ({ image, title, url, wip }: ProjectType) => {
           />
         </div>
         <div className="project__Text">
-          <h3 className="text-lg">{title}</h3>
+          <h3 className="text-xl">{title}</h3>
           <MdArrowOutward />
         </div>
       </div>
