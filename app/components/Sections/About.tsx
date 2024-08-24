@@ -6,15 +6,7 @@ const About = () => {
   return (
     <section className="flex flex-col gap-10" id="About">
       <H2>About</H2>
-      <div className="flex flex-col md:flex-row justify-between items-stretch gap-10">
-        {/* <Image
-          src="/placeholder-aboutme-image.avif"
-          width={200}
-          height={200}
-          alt="placeholder about me image"
-          className="w-full object-cover md:w-[45%] lg:w-[42%] md:max-h-[400px]"
-        /> */}
-
+      <div className="flex flex-col md:flex-row justify-between items-center gap-10">
         <div className="flex flex-col md:w-[800px] gap-10 leading-loose tracking-wide">
           <p className="text-2xl lg:text-3xl">
             <span lang="vi" className="text-accent">
@@ -35,6 +27,14 @@ const About = () => {
             solutions.
           </p>
         </div>
+
+        <Image
+          src="/about-illustration.svg"
+          width={200}
+          height={200}
+          alt="Illustration of a woman programming"
+          className="w-full object-contain md:w-[45%] lg:w-[42%] md:max-h-[400px] hidden md:inline-block"
+        />
       </div>
     </section>
   );
