@@ -22,7 +22,7 @@ const Nav = () => {
         </div>
 
         <div className="md:hidden">
-          <div
+          <button
             className={`hamburger ${showMobileNav ? "is-active" : ""}`}
             id="hamburger-1"
             onClick={toggleMobileNav}
@@ -30,7 +30,7 @@ const Nav = () => {
             <span className="line"></span>
             <span className="line"></span>
             <span className="line"></span>
-          </div>
+          </button>
         </div>
       </div>
 
