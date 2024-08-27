@@ -1,6 +1,7 @@
 import Overview from "@/app/components/Work/Overview";
 import Paragraph from "@/app/components/Work/Paragraph";
 import Title from "@/app/components/Work/Title";
+import Image from "next/image";
 import React from "react";
 
 const page = () => {
@@ -8,13 +9,11 @@ const page = () => {
     <div className="max-w-screen-xl mx-auto p-10 flex flex-col gap-10">
       <Title>Syntri Cybersecurity Consulting Landing Page</Title>
       <Paragraph>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+        A custom, fully responsive website tailored specifically for a
+        cybersecurity consulting firm, built using React, Next.js, and
+        TailwindCSS. The site features animated UI components and a mobile
+        navigation menu to enhance user engagement and provide an intuitive
+        browsing experience.
       </Paragraph>
       <Overview
         client={OverviewData.client}
@@ -22,6 +21,29 @@ const page = () => {
         industry={OverviewData.industry}
         live={OverviewData.live}
         repo={OverviewData.repo}
+      />
+      <Image
+        width={1439}
+        height={1128}
+        alt="Desktop and Mobile navigation menu on Syntri.us"
+        src={"/syntri-nav.jpg"}
+        className="w-full rounded-[30px]"
+      />
+
+      <Image
+        width={1439}
+        height={1128}
+        alt="Testimonials Section on Desktop and Mobile view on Syntri.us"
+        src={"/syntri-testimonials.jpg"}
+        className="w-full rounded-[30px]"
+      />
+
+      <Image
+        width={1439}
+        height={1128}
+        alt="Contact Form on Syntri.us"
+        src={"/syntri-contactForm.jpg"}
+        className="w-full rounded-[30px]"
       />
     </div>
   );
