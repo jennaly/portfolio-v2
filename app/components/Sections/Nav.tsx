@@ -53,6 +53,7 @@ const Nav = () => {
 
 export default Nav;
 const links = [
+  { url: "/", label: "Home" },
   {
     url: "/#Work",
     label: "Work",
