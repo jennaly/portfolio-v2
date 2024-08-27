@@ -74,7 +74,7 @@ const projects = [
       alt: "Project Preview",
     },
     title: "Children's Cancer Research Fund Website",
-    url: "/work/childrens-cancer-research-fund",
+    url: "/work/childrenscancer",
     wip: true,
   },
   {
