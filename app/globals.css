@@ -143,3 +143,8 @@ body {
   -o-transform: translateY(-13px) rotate(-45deg);
   transform: translateY(-8px) rotate(-45deg);
 }
+
+.project__Links:hover {
+  color: theme("colors.accent");
+  transition: 0.3s ease-in-out;
+}
