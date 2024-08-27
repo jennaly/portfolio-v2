@@ -74,7 +74,7 @@ const projects = [
       alt: "Project Preview",
     },
     title: "Children's Cancer Research Fund Website",
-    url: "",
+    url: "/work/childrens-cancer-research-fund",
     wip: true,
   },
   {
@@ -85,7 +85,7 @@ const projects = [
       alt: "Project Preview",
     },
     title: "ConsignR In-Store Retail Shopping Kiosk",
-    url: "",
+    url: "/work/consignr",
     wip: false,
   },
   {
@@ -96,7 +96,7 @@ const projects = [
       alt: "Project Preview",
     },
     title: "Dr.Dabber E-Commerce Storefront",
-    url: "",
+    url: "/work/drdabber",
     wip: false,
   },
   {
@@ -107,7 +107,7 @@ const projects = [
       alt: "Project Preview",
     },
     title: "Syntri Cybersecurity Consulting Landing Page",
-    url: "",
+    url: "/work/syntri",
     wip: false,
   },
 ];
