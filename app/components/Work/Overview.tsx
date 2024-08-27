@@ -18,7 +18,7 @@ const Overview = ({
   repo,
 }: OverviewProps) => {
   return (
-    <section className="text-xl tracking-wide grid grid-cols-1 gap-4 md:justify-between md:flex md:w-[90%] lg:w-[80%] xl:w-[70%]">
+    <section className="text-xl tracking-wide grid grid-cols-1 gap-4 md:justify-between md:flex md:w-[90%] lg:max-w-[900px]">
       <div className="grid grid-cols-2 md:flex md:flex-col">
         <h3 className="w-1/2">Client</h3>
         <span className="text-[#808080]">{client}</span>
