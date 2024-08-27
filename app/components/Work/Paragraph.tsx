@@ -5,7 +5,9 @@ type ParagraphProps = {
 };
 
 const Paragraph = ({ children }: ParagraphProps) => {
-  return <p className="text-xl tracking-wide max-w-[900px]">{children}</p>;
+  return (
+    <p className="text-xl tracking-wide w-full text-justify">{children}</p>
+  );
 };
 
 export default Paragraph;
