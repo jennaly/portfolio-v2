@@ -18,7 +18,7 @@ const Nav = () => {
             <StyledLink url={link.url} label={link.label} key={index} />
           ))}
 
-          <ResumeButton>Resume</ResumeButton>
+          {/* <ResumeButton>Resume</ResumeButton> */}
         </div>
 
         <div className="md:hidden">
@@ -42,9 +42,9 @@ const Nav = () => {
             </div>
           ))}
 
-          <div onClick={toggleMobileNav}>
+          {/* <div onClick={toggleMobileNav}>
             <ResumeButton>Resume</ResumeButton>
-          </div>
+          </div> */}
         </div>
       )}
     </nav>

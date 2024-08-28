@@ -44,11 +44,11 @@ const Experience = () => {
         ))}
       </div>
 
-      <div className="mt-6">
+      {/* <div className="mt-6">
         <ResumeButton>
           Full Resume <MdArrowOutward />
         </ResumeButton>
-      </div>
+      </div> */}
     </section>
   );
 };
