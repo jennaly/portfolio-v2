@@ -56,7 +56,7 @@ const links = [
 
 const externalLinks = [
   {
-    url: "www.linkedin.com/in/jennaly",
+    url: "https://www.linkedin.com/in/jennaly",
     label: "LinkedIn",
   },
   {
