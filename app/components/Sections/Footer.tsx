@@ -63,8 +63,4 @@ const externalLinks = [
     url: "https://github.com/jennaly",
     label: "GitHub",
   },
-  {
-    url: "/",
-    label: "Resume",
-  },
 ];
