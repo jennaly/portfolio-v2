@@ -9,12 +9,12 @@ const page = () => {
     <div className="max-w-screen-xl mx-auto p-10 flex flex-col gap-10">
       <Title>ConsignR In-Store Retail Shopping Kiosk</Title>
       <Paragraph>
-        Designed and developed custom UI interfaces for Consignr’s in-store
-        kiosk system, a key feature of a cloud-based consignment inventory
-        management platform that has processed over $30 million in sales. Led
-        the front-end development of the product catalog, utilizing NextJS,
-        React, and TailwindCSS to facilitate customer browsing and communication
-        with store associates for product selection and try-ons.
+        Developed custom UI interfaces for Consignr’s in-store kiosk system, a
+        key feature of a cloud-based consignment inventory management platform
+        that has processed over $30 million in sales. Led the front-end
+        development of the product catalog, utilizing NextJS, React, and
+        TailwindCSS to facilitate customer browsing and communication with store
+        associates for product selection and try-ons.
       </Paragraph>
       <Overview
         client={OverviewData.client}
