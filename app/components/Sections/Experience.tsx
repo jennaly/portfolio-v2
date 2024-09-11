@@ -65,7 +65,7 @@ const experiences = [
   {
     employer: "Independent Contractor",
     role: "Full-stack Developer and Web Consultant",
-    startDate: "2022",
+    startDate: "2023",
     endDate: "Present",
   },
 ];
