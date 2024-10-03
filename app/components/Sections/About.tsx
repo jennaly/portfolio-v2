@@ -22,9 +22,8 @@ const About = () => {
             Next.js, React, and Tailwind.
           </p>
           <p className="text-xl">
-            Currently, I’m focusing on enhancing my skills in cloud technologies
-            to improve my ability to design, develop, and deploy cloud-based
-            solutions.
+            Currently, I am enhancing my skills in cloud technologies to design,
+            develop, and deploy cloud-based solutions.
           </p>
         </div>
 
