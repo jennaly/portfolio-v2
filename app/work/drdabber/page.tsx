@@ -38,6 +38,22 @@ const page = () => {
         className="w-full rounded-[30px]"
       />
 
+      <Image
+        width={1439}
+        height={1128}
+        alt="Dr.Dabber's product page redesign, featuring product gallery in zoom mode"
+        src={"/drdabber-productpageUI-zoomModal.jpg"}
+        className="w-full rounded-[30px]"
+      />
+
+      <Image
+        width={1439}
+        height={1128}
+        alt="Dr.Dabber's product page redesign, featuring the lifestyle gallery"
+        src={"/drdabber-productpageUI-lifestyleGallery.jpg"}
+        className="w-full rounded-[30px]"
+      />
+
       <Paragraph>
         In addition to the redesign, I built a lead capture pop-up form to
         collect customer data, which is integrated with Klaviyo, an email
